@@ -25,9 +25,13 @@ illustrated with the vehicle operation
 ![image](https://user-images.githubusercontent.com/89746218/205963663-9701bec3-f35e-475e-90c4-ee565323905c.png)
 
 ## To Run On Simulator
-In code file you will find python files needed, drive_rover.py is needed to navigate the rover environment in autonomous mode, it also calls functions from within perception.py and decision.py. Everything in the jupyter notebook is defined in perception.py
+In code file you will find python files needed, drive_rover.py is needed to navigate the rover environment in autonomous mode, 
+it also calls functions from within perception.py and decision.py.
+Everything in the jupyter notebook is defined in perception.py
+
 Run the following command on cmd
-'''
+```
 python drive_rover.py
-'''
-Then launch the simulator and choose choose "Autonomous Mode", Rover will start by driving itself and showing a map that shows navigable terrain, obstacles and rock sample locations
+```
+Then launch the simulator and choose choose "Autonomous Mode", Rover will start by driving itself and showing a map that shows navigable terrain, 
+obstacles and rock sample locations
